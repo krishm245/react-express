@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "functions": {
+    "api/*.ts": {
+      "runtime": "@vercel/node@3"
+    }
+  },
+  "routes": [{ "src": "/(.*)", "dest": "/api/$1.ts" }]
+}
