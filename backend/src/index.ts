@@ -7,7 +7,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173", // Vite Dev
-      "https://react-express-backend-psi.vercel.app/", // Deployed Vite
+      "https://react-express-frontend-tan.vercel.app", // Deployed Vite
     ],
   })
 );
