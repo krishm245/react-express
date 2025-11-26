@@ -10,7 +10,9 @@ function App() {
   return (
     <ul>
       {data?.users?.map((u: any) => (
-        <p>{u}</p>
+        <p>
+          {u.id} - {u.name}
+        </p>
       ))}
     </ul>
   );
